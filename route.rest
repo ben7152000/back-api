@@ -1,0 +1,25 @@
+// Get All
+GET http://localhost:3000/api
+
+### // Create One
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+  "name": "Jenny"
+}
+
+### // Find One
+GET http://localhost:3000/api/6042200dfec3fa31b4d8a34c
+
+
+### // Update One
+PATCH http://localhost:3000/api/6042200dfec3fa31b4d8a34c
+Content-Type: application/json
+
+{
+  "name": "Ben"
+}
+
+### // Delete One
+DELETE http://localhost:3000/api/6042200dfec3fa31b4d8a34c
